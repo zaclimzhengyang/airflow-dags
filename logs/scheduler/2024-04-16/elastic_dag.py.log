@@ -1,0 +1,924 @@
+[2024-04-16T04:14:30.662+0000] {processor.py:154} INFO - Started process (PID=23750) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T04:14:30.689+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T04:14:30.701+0000] {logging_mixin.py:120} INFO - [2024-04-16T04:14:30.701+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T04:14:30.962+0000] {logging_mixin.py:120} INFO - [2024-04-16T04:14:30.867+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T04:14:31.067+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T04:14:31.296+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.664 seconds
+[2024-04-16T10:10:23.749+0000] {processor.py:154} INFO - Started process (PID=23915) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:10:23.808+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T10:10:23.934+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:10:23.932+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:10:24.939+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:10:24.765+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T10:10:25.088+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:10:27.376+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 3.992 seconds
+[2024-04-16T10:22:55.652+0000] {processor.py:154} INFO - Started process (PID=43) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:22:55.660+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T10:22:55.662+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:22:55.662+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:22:55.794+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:22:55.778+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T10:22:55.799+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:22:56.111+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.488 seconds
+[2024-04-16T10:23:29.594+0000] {processor.py:154} INFO - Started process (PID=109) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:23:29.606+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T10:23:29.608+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:23:29.608+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:23:29.720+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:23:29.691+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T10:23:29.721+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:23:29.821+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.259 seconds
+[2024-04-16T10:24:04.650+0000] {processor.py:154} INFO - Started process (PID=169) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:24:04.653+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T10:24:04.656+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:24:04.656+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:24:04.672+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:24:04.669+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T10:24:04.674+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:24:04.709+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.064 seconds
+[2024-04-16T10:24:35.930+0000] {processor.py:154} INFO - Started process (PID=222) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:24:35.943+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T10:24:35.954+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:24:35.952+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:24:36.519+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:24:36.442+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T10:24:36.530+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:24:37.010+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 1.171 seconds
+[2024-04-16T10:25:07.361+0000] {processor.py:154} INFO - Started process (PID=282) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:25:07.364+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T10:25:07.367+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:25:07.366+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:25:07.393+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:25:07.389+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T10:25:07.395+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:25:07.431+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.078 seconds
+[2024-04-16T10:25:37.576+0000] {processor.py:154} INFO - Started process (PID=360) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:25:37.579+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T10:25:37.582+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:25:37.582+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:25:37.602+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:25:37.598+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T10:25:37.603+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:25:37.633+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.062 seconds
+[2024-04-16T10:26:11.482+0000] {processor.py:154} INFO - Started process (PID=422) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:26:11.484+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T10:26:11.487+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:26:11.486+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:26:11.505+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:26:11.502+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T10:26:11.507+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:26:11.539+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.065 seconds
+[2024-04-16T10:26:41.690+0000] {processor.py:154} INFO - Started process (PID=483) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:26:41.692+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T10:26:41.694+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:26:41.694+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:26:41.710+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:26:41.708+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T10:26:41.711+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:26:41.748+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.067 seconds
+[2024-04-16T10:27:12.036+0000] {processor.py:154} INFO - Started process (PID=551) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:27:12.039+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T10:27:12.043+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:27:12.042+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:27:12.076+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:27:12.072+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T10:27:12.078+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:27:12.147+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.127 seconds
+[2024-04-16T10:27:42.520+0000] {processor.py:154} INFO - Started process (PID=620) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:27:42.522+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T10:27:42.523+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:27:42.523+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:27:42.543+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:27:42.540+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T10:27:42.545+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:27:42.578+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.065 seconds
+[2024-04-16T10:28:16.345+0000] {processor.py:154} INFO - Started process (PID=680) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:28:16.371+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T10:28:16.399+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:28:16.397+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:28:16.844+0000] {logging_mixin.py:120} INFO - [2024-04-16T10:28:16.766+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T10:28:16.867+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T10:28:17.851+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 1.708 seconds
+[2024-04-16T13:04:33.853+0000] {processor.py:154} INFO - Started process (PID=759) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:04:34.187+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:04:34.192+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:04:34.192+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:04:34.228+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:04:34.223+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:04:34.235+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:04:34.274+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.428 seconds
+[2024-04-16T13:05:04.559+0000] {processor.py:154} INFO - Started process (PID=828) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:05:04.561+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:05:04.563+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:05:04.563+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:05:04.583+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:05:04.581+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:05:04.585+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:05:04.624+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.074 seconds
+[2024-04-16T13:05:34.915+0000] {processor.py:154} INFO - Started process (PID=907) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:05:34.917+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:05:34.919+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:05:34.919+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:05:34.932+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:05:34.930+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:05:34.934+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:05:34.962+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.053 seconds
+[2024-04-16T13:06:05.007+0000] {processor.py:154} INFO - Started process (PID=977) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:06:05.009+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:06:05.014+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:06:05.013+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:06:05.035+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:06:05.032+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:06:05.037+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:06:05.071+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.074 seconds
+[2024-04-16T13:06:35.168+0000] {processor.py:154} INFO - Started process (PID=1046) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:06:35.171+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:06:35.174+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:06:35.173+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:06:35.199+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:06:35.194+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:06:35.201+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:06:35.242+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.083 seconds
+[2024-04-16T13:07:05.849+0000] {processor.py:154} INFO - Started process (PID=1114) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:07:05.851+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:07:05.853+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:07:05.853+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:07:05.882+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:07:05.878+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:07:05.886+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:07:05.941+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.097 seconds
+[2024-04-16T13:07:36.378+0000] {processor.py:154} INFO - Started process (PID=1192) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:07:36.380+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:07:36.383+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:07:36.383+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:07:36.404+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:07:36.401+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:07:36.406+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:07:36.442+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.072 seconds
+[2024-04-16T13:08:06.675+0000] {processor.py:154} INFO - Started process (PID=1261) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:08:06.677+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:08:06.679+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:08:06.679+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:08:06.695+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:08:06.693+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:08:06.696+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:08:06.727+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.059 seconds
+[2024-04-16T13:08:36.787+0000] {processor.py:154} INFO - Started process (PID=1331) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:08:36.789+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:08:36.792+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:08:36.791+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:08:36.811+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:08:36.807+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:08:36.813+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:08:36.856+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.076 seconds
+[2024-04-16T13:09:07.154+0000] {processor.py:154} INFO - Started process (PID=1396) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:09:07.156+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:09:07.158+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:09:07.158+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:09:07.175+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:09:07.173+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:09:07.176+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:09:07.212+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.068 seconds
+[2024-04-16T13:09:37.673+0000] {processor.py:154} INFO - Started process (PID=1477) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:09:37.676+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:09:37.679+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:09:37.678+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:09:37.780+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:09:37.763+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:09:37.782+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:09:37.943+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.307 seconds
+[2024-04-16T13:10:08.140+0000] {processor.py:154} INFO - Started process (PID=1544) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:10:08.144+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:10:08.147+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:10:08.147+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:10:08.164+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:10:08.160+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:10:08.166+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:10:08.204+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.071 seconds
+[2024-04-16T13:10:38.362+0000] {processor.py:154} INFO - Started process (PID=1612) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:10:38.367+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:10:38.371+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:10:38.370+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:10:38.401+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:10:38.395+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:10:38.411+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:10:38.477+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.128 seconds
+[2024-04-16T13:11:09.006+0000] {processor.py:154} INFO - Started process (PID=1687) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:11:09.009+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:11:09.010+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:11:09.010+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:11:09.027+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:11:09.025+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:11:09.028+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:11:09.066+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.069 seconds
+[2024-04-16T13:11:39.881+0000] {processor.py:154} INFO - Started process (PID=1757) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:11:39.884+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:11:39.886+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:11:39.886+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:11:39.905+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:11:39.902+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:11:39.908+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:11:39.942+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.072 seconds
+[2024-04-16T13:12:10.026+0000] {processor.py:154} INFO - Started process (PID=1835) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:12:10.028+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:12:10.031+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:12:10.030+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:12:10.053+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:12:10.050+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:12:10.055+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:12:10.094+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.075 seconds
+[2024-04-16T13:12:40.955+0000] {processor.py:154} INFO - Started process (PID=1904) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:12:40.957+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:12:40.959+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:12:40.959+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:12:40.976+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:12:40.974+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:12:40.977+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:12:41.007+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.092 seconds
+[2024-04-16T13:13:11.794+0000] {processor.py:154} INFO - Started process (PID=1983) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:13:11.800+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:13:11.805+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:13:11.804+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:13:11.883+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:13:11.872+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:13:11.888+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:13:11.984+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.211 seconds
+[2024-04-16T13:13:42.068+0000] {processor.py:154} INFO - Started process (PID=2053) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:13:42.070+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:13:42.072+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:13:42.072+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:13:42.086+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:13:42.084+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:13:42.087+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:13:42.121+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.058 seconds
+[2024-04-16T13:14:12.656+0000] {processor.py:154} INFO - Started process (PID=2123) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:14:12.658+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:14:12.660+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:14:12.660+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:14:12.689+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:14:12.687+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:14:12.691+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:14:12.752+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.104 seconds
+[2024-04-16T13:14:43.130+0000] {processor.py:154} INFO - Started process (PID=2199) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:14:43.131+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:14:43.134+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:14:43.133+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:14:43.153+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:14:43.151+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:14:43.154+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:14:43.198+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.078 seconds
+[2024-04-16T13:15:13.795+0000] {processor.py:154} INFO - Started process (PID=2278) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:15:13.797+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:15:13.799+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:15:13.799+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:15:13.812+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:15:13.810+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:15:13.814+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:15:13.847+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.058 seconds
+[2024-04-16T13:15:44.722+0000] {processor.py:154} INFO - Started process (PID=2346) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:15:44.724+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:15:44.726+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:15:44.725+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:15:44.743+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:15:44.741+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:15:44.744+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:15:44.776+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.060 seconds
+[2024-04-16T13:16:15.666+0000] {processor.py:154} INFO - Started process (PID=2424) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:16:15.668+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:16:15.670+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:16:15.670+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:16:15.686+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:16:15.684+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:16:15.688+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:16:15.722+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.063 seconds
+[2024-04-16T13:16:46.044+0000] {processor.py:154} INFO - Started process (PID=2493) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:16:46.047+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:16:46.049+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:16:46.049+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:16:46.069+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:16:46.066+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:16:46.070+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:16:46.103+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.068 seconds
+[2024-04-16T13:17:16.451+0000] {processor.py:154} INFO - Started process (PID=2571) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:17:16.453+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:17:16.455+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:17:16.455+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:17:16.470+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:17:16.468+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:17:16.472+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:17:16.507+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.062 seconds
+[2024-04-16T13:17:47.261+0000] {processor.py:154} INFO - Started process (PID=2640) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:17:47.263+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:17:47.265+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:17:47.265+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:17:47.280+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:17:47.278+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:17:47.282+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:17:47.312+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.055 seconds
+[2024-04-16T13:18:17.545+0000] {processor.py:154} INFO - Started process (PID=2718) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:18:17.547+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:18:17.549+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:18:17.549+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:18:17.563+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:18:17.561+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:18:17.564+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:18:17.597+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.058 seconds
+[2024-04-16T13:18:48.373+0000] {processor.py:154} INFO - Started process (PID=2797) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:18:48.375+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:18:48.377+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:18:48.377+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:18:48.399+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:18:48.396+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:18:48.401+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:18:48.435+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.069 seconds
+[2024-04-16T13:19:18.896+0000] {processor.py:154} INFO - Started process (PID=2866) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:19:18.898+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:19:18.900+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:19:18.899+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:19:18.915+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:19:18.912+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:19:18.916+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:19:18.948+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.057 seconds
+[2024-04-16T13:19:49.472+0000] {processor.py:154} INFO - Started process (PID=2943) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:19:49.489+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:19:49.493+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:19:49.492+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:19:49.571+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:19:49.567+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:19:49.573+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:19:49.621+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.196 seconds
+[2024-04-16T13:20:20.281+0000] {processor.py:154} INFO - Started process (PID=3010) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:20:20.283+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:20:20.284+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:20:20.284+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:20:20.302+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:20:20.299+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:20:20.303+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:20:20.343+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.070 seconds
+[2024-04-16T13:20:50.734+0000] {processor.py:154} INFO - Started process (PID=3089) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:20:50.740+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:20:50.746+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:20:50.746+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:20:50.788+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:20:50.784+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:20:50.789+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:20:50.833+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.125 seconds
+[2024-04-16T13:21:21.704+0000] {processor.py:154} INFO - Started process (PID=3158) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:21:21.707+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:21:21.708+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:21:21.708+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:21:21.725+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:21:21.723+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:21:21.726+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:21:21.760+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.063 seconds
+[2024-04-16T13:21:52.507+0000] {processor.py:154} INFO - Started process (PID=3228) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:21:52.511+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:21:52.513+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:21:52.513+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:21:52.536+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:21:52.532+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:21:52.538+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:21:52.594+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.096 seconds
+[2024-04-16T13:22:23.166+0000] {processor.py:154} INFO - Started process (PID=3306) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:22:23.171+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:22:23.176+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:22:23.176+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:22:23.255+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:22:23.245+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:22:23.259+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:22:23.341+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.190 seconds
+[2024-04-16T13:22:54.371+0000] {processor.py:154} INFO - Started process (PID=3375) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:22:54.375+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:22:54.378+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:22:54.377+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:22:54.398+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:22:54.395+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:22:54.400+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:22:54.435+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.073 seconds
+[2024-04-16T13:23:25.041+0000] {processor.py:154} INFO - Started process (PID=3453) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:23:25.044+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:23:25.046+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:23:25.046+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:23:25.065+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:23:25.062+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:23:25.066+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:23:25.098+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.066 seconds
+[2024-04-16T13:23:55.747+0000] {processor.py:154} INFO - Started process (PID=3522) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:23:55.750+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:23:55.752+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:23:55.752+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:23:55.771+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:23:55.769+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:23:55.773+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:23:55.815+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.075 seconds
+[2024-04-16T13:24:26.098+0000] {processor.py:154} INFO - Started process (PID=3599) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:24:26.102+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:24:26.104+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:24:26.104+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:24:26.124+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:24:26.121+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:24:26.126+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:24:26.168+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.084 seconds
+[2024-04-16T13:24:56.449+0000] {processor.py:154} INFO - Started process (PID=3667) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:24:56.451+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:24:56.453+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:24:56.452+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:24:56.473+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:24:56.471+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:24:56.475+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:24:56.527+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.082 seconds
+[2024-04-16T13:25:27.642+0000] {processor.py:154} INFO - Started process (PID=3746) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:25:27.646+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:25:27.649+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:25:27.648+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:25:27.667+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:25:27.665+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:25:27.668+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:25:27.712+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.078 seconds
+[2024-04-16T13:25:57.791+0000] {processor.py:154} INFO - Started process (PID=3811) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:25:57.794+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:25:57.797+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:25:57.797+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:25:57.815+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:25:57.812+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:25:57.816+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:25:57.853+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.067 seconds
+[2024-04-16T13:26:28.041+0000] {processor.py:154} INFO - Started process (PID=3890) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:26:28.043+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:26:28.045+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:26:28.044+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:26:28.059+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:26:28.057+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:26:28.060+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:26:28.091+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.056 seconds
+[2024-04-16T13:26:58.398+0000] {processor.py:154} INFO - Started process (PID=3959) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:26:58.400+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:26:58.402+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:26:58.401+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:26:58.419+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:26:58.414+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:26:58.420+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:26:58.462+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.071 seconds
+[2024-04-16T13:27:29.323+0000] {processor.py:154} INFO - Started process (PID=4037) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:27:29.327+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:27:29.329+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:27:29.329+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:27:29.346+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:27:29.343+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:27:29.347+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:27:29.384+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.067 seconds
+[2024-04-16T13:27:59.651+0000] {processor.py:154} INFO - Started process (PID=4106) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:27:59.654+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:27:59.656+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:27:59.655+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:27:59.671+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:27:59.669+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:27:59.672+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:27:59.704+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.060 seconds
+[2024-04-16T13:28:30.100+0000] {processor.py:154} INFO - Started process (PID=4183) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:28:30.112+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:28:30.132+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:28:30.132+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:28:30.265+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:28:30.253+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:28:30.268+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:28:30.351+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.274 seconds
+[2024-04-16T13:29:01.137+0000] {processor.py:154} INFO - Started process (PID=4252) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:29:01.140+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:29:01.142+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:29:01.142+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:29:01.163+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:29:01.161+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:29:01.165+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:29:01.200+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.070 seconds
+[2024-04-16T13:29:32.031+0000] {processor.py:154} INFO - Started process (PID=4332) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:29:32.033+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:29:32.034+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:29:32.034+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:29:32.049+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:29:32.047+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:29:32.051+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:29:32.091+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.065 seconds
+[2024-04-16T13:30:02.770+0000] {processor.py:154} INFO - Started process (PID=4402) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:30:02.772+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:30:02.775+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:30:02.774+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:30:02.797+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:30:02.794+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:30:02.798+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:30:02.839+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.079 seconds
+[2024-04-16T13:30:33.026+0000] {processor.py:154} INFO - Started process (PID=4480) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:30:33.029+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:30:33.031+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:30:33.031+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:30:33.046+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:30:33.043+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:30:33.048+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:30:33.091+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.073 seconds
+[2024-04-16T13:31:05.292+0000] {processor.py:154} INFO - Started process (PID=4550) to work on /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:31:05.301+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2024-04-16T13:31:05.354+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:31:05.353+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:31:05.395+0000] {logging_mixin.py:120} INFO - [2024-04-16T13:31:05.382+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/elastic_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/elastic_dag.py", line 3, in <module>
+    from plugins.hooks.elastic.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'plugins'
+[2024-04-16T13:31:05.408+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/elastic_dag.py
+[2024-04-16T13:31:05.572+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.429 seconds

@@ -1,0 +1,4 @@
+[2024-04-01T23:58:29.787+0000] {processor.py:154} INFO - Started process (PID=185) to work on /opt/airflow/dags/user_processing.py
+[2024-04-01T23:58:29.845+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2024-04-01T23:58:29.939+0000] {logging_mixin.py:120} INFO - [2024-04-01T23:58:29.891+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2024-04-01T23:58:35.816+0000] {processor.py:766} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /opt/airflow/dags/user_processing.py

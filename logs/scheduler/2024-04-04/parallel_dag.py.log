@@ -1,0 +1,4 @@
+[2024-04-04T03:52:31.241+0000] {processor.py:154} INFO - Started process (PID=8712) to work on /opt/airflow/dags/parallel_dag.py
+[2024-04-05T16:07:17.289+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2024-04-05T16:07:17.321+0000] {logging_mixin.py:120} INFO - [2024-04-05T16:07:17.320+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2024-04-05T16:07:19.600+0000] {processor.py:766} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py

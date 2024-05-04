@@ -1,0 +1,12 @@
+[2024-04-12T00:47:42.085+0000] {processor.py:154} INFO - Started process (PID=55633) to work on /opt/airflow/dags/parallel_dag.py
+[2024-04-12T00:47:42.108+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2024-04-12T00:47:42.196+0000] {logging_mixin.py:120} INFO - [2024-04-12T00:47:42.191+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2024-04-12T00:47:42.612+0000] {processor.py:766} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2024-04-12T00:47:45.735+0000] {logging_mixin.py:120} INFO - [2024-04-12T00:47:45.735+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2024-04-12T00:47:48.704+0000] {logging_mixin.py:120} INFO - [2024-04-12T00:47:48.688+0000] {dag.py:3340} INFO - Setting next_dagrun for parallel_dag to 2024-04-12T00:00:00+00:00, run_after=2024-04-13T00:00:00+00:00
+[2024-04-12T00:47:49.170+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/parallel_dag.py took 7.398 seconds
+[2024-04-12T19:29:39.667+0000] {processor.py:154} INFO - Started process (PID=55748) to work on /opt/airflow/dags/parallel_dag.py
+[2024-04-12T19:29:39.746+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2024-04-12T19:29:39.824+0000] {logging_mixin.py:120} INFO - [2024-04-12T19:29:39.806+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2024-04-12T19:29:45.567+0000] {processor.py:766} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2024-04-12T19:29:53.020+0000] {logging_mixin.py:120} INFO - [2024-04-12T19:29:53.019+0000] {taskinstance.py:1853} ERROR - {'DAG Id': 'parallel_dag', 'Task Id': 'extract_a', 'Run Id': 'scheduled__2024-04-11T00:00:00+00:00', 'Hostname': 'a868c0c748e3', 'External Executor Id': 'b5ecd47d-28a7-483e-a636-ca00013c0107'}

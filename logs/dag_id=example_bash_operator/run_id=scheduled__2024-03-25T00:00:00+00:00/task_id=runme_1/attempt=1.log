@@ -1,0 +1,7 @@
+[2024-03-29T04:18:52.017+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: example_bash_operator.runme_1 scheduled__2024-03-25T00:00:00+00:00 [queued]>
+[2024-03-29T04:18:52.886+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: example_bash_operator.runme_1 scheduled__2024-03-25T00:00:00+00:00 [queued]>
+[2024-03-29T04:18:52.892+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-29T04:18:52.902+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2024-03-29T04:18:52.916+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
